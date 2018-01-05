@@ -14,10 +14,10 @@ set :markdown,
     renderer: UniqueHeadCounter
 
 # Assets
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
-set :fonts_dir, 'fonts'
+set :css_dir, 'static/assets/css'
+set :js_dir, 'static/assets/javascript'
+set :images_dir, 'static/assets/images'
+set :fonts_dir, 'static/assets/fonts'
 
 # Activate the syntax highlighter
 activate :syntax
